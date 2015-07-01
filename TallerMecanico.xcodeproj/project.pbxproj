@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25479DB91B422721004E70A1 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25479DB81B422721004E70A1 /* OptionViewController.m */; };
+		256830F91B408F4800268A20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 256830F81B408F4800268A20 /* main.m */; };
+		256830FC1B408F4800268A20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256830FB1B408F4800268A20 /* AppDelegate.m */; };
+		256831021B408F4800268A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256831001B408F4800268A20 /* Main.storyboard */; };
+		256831071B408F4800268A20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256831051B408F4800268A20 /* LaunchScreen.xib */; };
+		256831131B408F4800268A20 /* TallerMecanicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256831121B408F4800268A20 /* TallerMecanicoTests.m */; };
+		256831201B40957E00268A20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2568311F1B40957E00268A20 /* Images.xcassets */; };
+		256831231B4097FC00268A20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256831221B4097FC00268A20 /* MainViewController.m */; };
+		256831261B409BD100268A20 /* Job.m in Sources */ = {isa = PBXBuildFile; fileRef = 256831251B409BD100268A20 /* Job.m */; };
+		256831291B40A27D00268A20 /* NewJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256831281B40A27D00268A20 /* NewJobViewController.m */; };
+		2568312C1B40F2EA00268A20 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2568312B1B40F2EA00268A20 /* Realm.framework */; };
+		2568312E1B40F31900268A20 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2568312D1B40F31900268A20 /* libc++.dylib */; };
+		256831311B40F7D300268A20 /* JobsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256831301B40F7D300268A20 /* JobsTableViewController.m */; };
+		2568313C1B4101F600268A20 /* JobTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2568313A1B4101F600268A20 /* JobTableViewCell.m */; };
+		2568313D1B4101F600268A20 /* JobTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568313B1B4101F600268A20 /* JobTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2568310D1B408F4800268A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256830EB1B408F4800268A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256830F21B408F4800268A20;
+			remoteInfo = TallerMecanico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25479DB71B422721004E70A1 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		25479DB81B422721004E70A1 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		256830F31B408F4800268A20 /* TallerMecanico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallerMecanico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256830F71B408F4800268A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256830F81B408F4800268A20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		256830FA1B408F4800268A20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256830FB1B408F4800268A20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256831011B408F4800268A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		256831061B408F4800268A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2568310C1B408F4800268A20 /* TallerMecanicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallerMecanicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		256831111B408F4800268A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256831121B408F4800268A20 /* TallerMecanicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TallerMecanicoTests.m; sourceTree = "<group>"; };
+		2568311F1B40957E00268A20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		256831211B4097FC00268A20 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		256831221B4097FC00268A20 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		256831241B409BD100268A20 /* Job.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Job.h; sourceTree = "<group>"; };
+		256831251B409BD100268A20 /* Job.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Job.m; sourceTree = "<group>"; };
+		256831271B40A27D00268A20 /* NewJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewJobViewController.h; sourceTree = "<group>"; };
+		256831281B40A27D00268A20 /* NewJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewJobViewController.m; sourceTree = "<group>"; };
+		2568312B1B40F2EA00268A20 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		2568312D1B40F31900268A20 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2568312F1B40F7D300268A20 /* JobsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobsTableViewController.h; sourceTree = "<group>"; };
+		256831301B40F7D300268A20 /* JobsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobsTableViewController.m; sourceTree = "<group>"; };
+		256831391B4101F600268A20 /* JobTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobTableViewCell.h; sourceTree = "<group>"; };
+		2568313A1B4101F600268A20 /* JobTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobTableViewCell.m; sourceTree = "<group>"; };
+		2568313B1B4101F600268A20 /* JobTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256830F01B408F4800268A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2568312E1B40F31900268A20 /* libc++.dylib in Frameworks */,
+				2568312C1B40F2EA00268A20 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256831091B408F4800268A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256830EA1B408F4800268A20 = {
+			isa = PBXGroup;
+			children = (
+				256830F51B408F4800268A20 /* TallerMecanico */,
+				2568310F1B408F4800268A20 /* TallerMecanicoTests */,
+				256830F41B408F4800268A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256830F41B408F4800268A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256830F31B408F4800268A20 /* TallerMecanico.app */,
+				2568310C1B408F4800268A20 /* TallerMecanicoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256830F51B408F4800268A20 /* TallerMecanico */ = {
+			isa = PBXGroup;
+			children = (
+				2568312A1B40F2DA00268A20 /* Frameworks */,
+				2568311E1B408F5E00268A20 /* Controller */,
+				2568311D1B408F5900268A20 /* Model */,
+				2568311C1B408F5200268A20 /* View */,
+				256830F61B408F4800268A20 /* Supporting Files */,
+			);
+			path = TallerMecanico;
+			sourceTree = "<group>";
+		};
+		256830F61B408F4800268A20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256830F71B408F4800268A20 /* Info.plist */,
+				256830F81B408F4800268A20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2568310F1B408F4800268A20 /* TallerMecanicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				256831121B408F4800268A20 /* TallerMecanicoTests.m */,
+				256831101B408F4800268A20 /* Supporting Files */,
+			);
+			path = TallerMecanicoTests;
+			sourceTree = "<group>";
+		};
+		256831101B408F4800268A20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256831111B408F4800268A20 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2568311C1B408F5200268A20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				256831321B4100C000268A20 /* CustomCell */,
+				256831001B408F4800268A20 /* Main.storyboard */,
+				256831051B408F4800268A20 /* LaunchScreen.xib */,
+				2568311F1B40957E00268A20 /* Images.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2568311D1B408F5900268A20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				256831241B409BD100268A20 /* Job.h */,
+				256831251B409BD100268A20 /* Job.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2568311E1B408F5E00268A20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				256830FA1B408F4800268A20 /* AppDelegate.h */,
+				256830FB1B408F4800268A20 /* AppDelegate.m */,
+				256831211B4097FC00268A20 /* MainViewController.h */,
+				256831221B4097FC00268A20 /* MainViewController.m */,
+				256831271B40A27D00268A20 /* NewJobViewController.h */,
+				256831281B40A27D00268A20 /* NewJobViewController.m */,
+				2568312F1B40F7D300268A20 /* JobsTableViewController.h */,
+				256831301B40F7D300268A20 /* JobsTableViewController.m */,
+				25479DB71B422721004E70A1 /* OptionViewController.h */,
+				25479DB81B422721004E70A1 /* OptionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2568312A1B40F2DA00268A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2568312D1B40F31900268A20 /* libc++.dylib */,
+				2568312B1B40F2EA00268A20 /* Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		256831321B4100C000268A20 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				256831391B4101F600268A20 /* JobTableViewCell.h */,
+				2568313A1B4101F600268A20 /* JobTableViewCell.m */,
+				2568313B1B4101F600268A20 /* JobTableViewCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256830F21B408F4800268A20 /* TallerMecanico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256831161B408F4800268A20 /* Build configuration list for PBXNativeTarget "TallerMecanico" */;
+			buildPhases = (
+				256830EF1B408F4800268A20 /* Sources */,
+				256830F01B408F4800268A20 /* Frameworks */,
+				256830F11B408F4800268A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TallerMecanico;
+			productName = TallerMecanico;
+			productReference = 256830F31B408F4800268A20 /* TallerMecanico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2568310B1B408F4800268A20 /* TallerMecanicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256831191B408F4800268A20 /* Build configuration list for PBXNativeTarget "TallerMecanicoTests" */;
+			buildPhases = (
+				256831081B408F4800268A20 /* Sources */,
+				256831091B408F4800268A20 /* Frameworks */,
+				2568310A1B408F4800268A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2568310E1B408F4800268A20 /* PBXTargetDependency */,
+			);
+			name = TallerMecanicoTests;
+			productName = TallerMecanicoTests;
+			productReference = 2568310C1B408F4800268A20 /* TallerMecanicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256830EB1B408F4800268A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = FUTAPP;
+				TargetAttributes = {
+					256830F21B408F4800268A20 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					2568310B1B408F4800268A20 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 256830F21B408F4800268A20;
+					};
+				};
+			};
+			buildConfigurationList = 256830EE1B408F4800268A20 /* Build configuration list for PBXProject "TallerMecanico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256830EA1B408F4800268A20;
+			productRefGroup = 256830F41B408F4800268A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256830F21B408F4800268A20 /* TallerMecanico */,
+				2568310B1B408F4800268A20 /* TallerMecanicoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256830F11B408F4800268A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256831201B40957E00268A20 /* Images.xcassets in Resources */,
+				256831021B408F4800268A20 /* Main.storyboard in Resources */,
+				256831071B408F4800268A20 /* LaunchScreen.xib in Resources */,
+				2568313D1B4101F600268A20 /* JobTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2568310A1B408F4800268A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256830EF1B408F4800268A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256830FC1B408F4800268A20 /* AppDelegate.m in Sources */,
+				25479DB91B422721004E70A1 /* OptionViewController.m in Sources */,
+				2568313C1B4101F600268A20 /* JobTableViewCell.m in Sources */,
+				256831231B4097FC00268A20 /* MainViewController.m in Sources */,
+				256830F91B408F4800268A20 /* main.m in Sources */,
+				256831291B40A27D00268A20 /* NewJobViewController.m in Sources */,
+				256831261B409BD100268A20 /* Job.m in Sources */,
+				256831311B40F7D300268A20 /* JobsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256831081B408F4800268A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256831131B408F4800268A20 /* TallerMecanicoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2568310E1B408F4800268A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256830F21B408F4800268A20 /* TallerMecanico */;
+			targetProxy = 2568310D1B408F4800268A20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		256831001B408F4800268A20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256831011B408F4800268A20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		256831051B408F4800268A20 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256831061B408F4800268A20 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256831141B408F4800268A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		256831151B408F4800268A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		256831171B408F4800268A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TallerMecanico",
+				);
+				INFOPLIST_FILE = TallerMecanico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		256831181B408F4800268A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TallerMecanico",
+				);
+				INFOPLIST_FILE = TallerMecanico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2568311A1B408F4800268A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TallerMecanicoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallerMecanico.app/TallerMecanico";
+			};
+			name = Debug;
+		};
+		2568311B1B408F4800268A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TallerMecanicoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallerMecanico.app/TallerMecanico";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256830EE1B408F4800268A20 /* Build configuration list for PBXProject "TallerMecanico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256831141B408F4800268A20 /* Debug */,
+				256831151B408F4800268A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256831161B408F4800268A20 /* Build configuration list for PBXNativeTarget "TallerMecanico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256831171B408F4800268A20 /* Debug */,
+				256831181B408F4800268A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256831191B408F4800268A20 /* Build configuration list for PBXNativeTarget "TallerMecanicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2568311A1B408F4800268A20 /* Debug */,
+				2568311B1B408F4800268A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 256830EB1B408F4800268A20 /* Project object */;
+}
